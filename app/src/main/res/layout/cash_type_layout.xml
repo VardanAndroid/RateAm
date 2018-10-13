@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|bottom"
+
+    >
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+        <RadioButton
+            android:id="@+id/cashRbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/white"
+            android:checked="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/cash"
+            android:textColor="@android:color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+        <RadioButton
+            android:id="@+id/nonCashRbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/non_cash"
+            android:textColor="@android:color/white" />
+
+        </FrameLayout>
+
+    </RadioGroup>
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="head_of_bank_margin_start">20dp</dimen>
+    <dimen name="head_of_bank_margin_end">20dp</dimen>
+    <dimen name="head_of_bank_margin_top">30dp</dimen>
+    <dimen name="head_of_bank_bank_name_margin_start">8dp</dimen>
+    <dimen name="head_of_bank_bank_name_margin_end">8dp</dimen>
+    <dimen name="head_of_bank_bank_name_margin_top">16dp</dimen>
+
+    <dimen name="head_of_bank_bank_title_margin_start">8dp</dimen>
+    <dimen name="head_of_bank_bank_title_margin_end">8dp</dimen>
+    <dimen name="head_of_bank_bank_title_margin_top">16dp</dimen>
+    <dimen name="head_of_bank_first_divider_margin_end">16dp</dimen>
+    <dimen name="head_of_bank_first_divider_height">1dp</dimen>
+    <dimen name="head_of_bank_first_divider_margin_start">16dp</dimen>
+    <dimen name="head_of_bank_first_divider_margin_top">12dp</dimen>
+    <dimen name="head_of_bank_address_margin_end">8dp</dimen>
+    <dimen name="head_of_bank_address_margin_start">8dp</dimen>
+    <dimen name="head_of_bank_address_margin_top">16dp</dimen>
+    <dimen name="head_of_bank_second_divider_height">1dp</dimen>
+    <dimen name="head_of_bank_second_divider_margin_end">16dp</dimen>
+    <dimen name="head_of_bank_second_divider_margin_start">16dp</dimen>
+    <dimen name="head_of_bank_second_divider_margin_top">32dp</dimen>
+    <dimen name="collapsing_toolbar_appBar_layout_height">400dp</dimen>
+</resources>

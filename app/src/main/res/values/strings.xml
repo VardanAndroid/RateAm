@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RateAmTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cash">Cash</string>
+    <string name="non_cash">Non-Cash</string>
+    <string name="contact_number">Contact number</string>
+    <string name="working_days">Mon-Fri</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="branches">Branches</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+    <string name="currency">Currency</string>
+</resources>
