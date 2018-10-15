@@ -8,6 +8,7 @@
     android:layout_marginEnd="@dimen/head_of_bank_margin_end"
     android:layout_marginStart="@dimen/head_of_bank_margin_start"
     android:layout_marginTop="@dimen/head_of_bank_margin_top"
+    android:id="@+id/head_of_branch_container"
     android:background="@drawable/head_bank_shape">
 
     <TextView

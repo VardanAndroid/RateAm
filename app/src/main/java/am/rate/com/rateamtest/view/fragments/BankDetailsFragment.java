@@ -69,6 +69,8 @@ public class BankDetailsFragment extends BaseFragment<BankDetailsView> implement
     TextView mBankContactTv;
     @BindView(R.id.working_hour)
     TextView mBankWorkingOursTv;
+    @BindView(R.id.head_of_branch_container)
+    ViewGroup mHeadOfBranch;
     @BindView(R.id.cashRbtn)
     RadioButton mRadioButtonCash;
     @BindView(R.id.nonCashRbtn)
@@ -206,6 +208,11 @@ public class BankDetailsFragment extends BaseFragment<BankDetailsView> implement
         mBankContactTv.setText(branch.getContact());
         mBankWorkingOursTv.setText(branch.getWorkingHours());
         mBankNameTv.setText(mBank.getName());
+    }
+
+    @Override
+    public void notifyAboutEmptyHeadBranch() {
+        mHeadOfBranch.setVisibility(View.GONE);
     }
 
     @Override

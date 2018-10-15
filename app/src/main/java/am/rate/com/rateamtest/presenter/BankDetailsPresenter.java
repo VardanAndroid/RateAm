@@ -83,7 +83,7 @@ public class BankDetailsPresenter extends BasePresenter {
         }
         if (!hasHead) {
             if (mView != null) {
-                ((BankDetailsView) mView).notifyHeadofBranch(branches.get(0));
+                ((BankDetailsView) mView).notifyAboutEmptyHeadBranch();
             }
         }
     }
